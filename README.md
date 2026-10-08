@@ -34,3 +34,28 @@ Abra o seu terminal (PowerShell ou Prompt de Comando) na pasta do projeto e exec
 
 ```bash
 python server.py
+
+Passo 3: Acessar no Navegador
+Abra o seu navegador e acesse:
+👉 http://localhost:8000
+
+📖 Como Usar
+No seu Google Drive, clique com o botão direito no PDF desejado, selecione Compartilhar e configure o acesso como "Qualquer pessoa com o link" (Leitor). Copie o link.
+
+Abra http://localhost:8000 no navegador.
+
+Cole o link de compartilhamento do Google Drive na caixa de texto.
+
+Clique em Gerar Flipbook e aguarde o processamento. O livro virtual abrirá na tela pronto para ser folheado!
+
+📂 Estrutura do Projeto
+Plaintext
+meu-flipbook-drive/
+│
+├── index.html       # Interface web do flipbook e leitor PDF.js
+├── server.py        # Servidor Python com proxy universal para o Drive
+└── screenshot.png   # Imagem de demonstração
+
+
+📜 Licença
+Este projeto é de código aberto sob a licença MIT.
